@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    src:
+      url('/fonts/ptsans/regular/PT_Sans_Regular.eot') format('embedded-opentype'),
+      url('/fonts/ptsans/regular/PT_Sans_Regular.ttf') format('truetype'),
+      url('/fonts/ptsans/regular/PT_Sans_Regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    src:
+      url('/fonts/ptsans/bold/PT_Sans_Bold.eot') format('embedded-opentype'),
+      url('/fonts/ptsans/bold/PT_Sans_Bold.ttf') format('truetype'),
+      url('/fonts/ptsans/bold/PT_Sans_Bold.woff') format('woff');
+  }
+  
+  @mixin headline-1($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 112px;
+    letter-spacing: -1.5px;
+    color: $text-color;
+  }
+  
+  @mixin headline-2($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+    color: $text-color;
+  }
+  
+  @mixin headline-3($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: $text-color;
+  }
+  
+  @mixin headline-4($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 36px;
+    color: $text-color;
+  }
+  
+  @mixin headline-5($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.18px;
+    color: $text-color;
+  }
+  
+  @mixin headline-6($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: $text-color;
+  }
+  
+  @mixin subtitle-1($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-color;
+  }
+  
+  @mixin subtitle-2($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: $text-color;
+  }
+  
+  @mixin body-1($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: $text-color;
+  }
+  
+  @mixin body-2($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: $text-color;
+  }
+  
+  @mixin button-1($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-color;
+  }
+  
+  @mixin button-2($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: $text-color;
+  }
+  
+  @mixin caption($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: $text-color;
+  }
+  
+  @mixin overline($text-color: rgb(var(--content-primary))) {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: $text-color;
+  }
+  
+  @mixin link($text-color: rgb(var(--accent-blue))) {
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: $text-color;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,46 @@
+@forward './colors';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ecf1f6;
+  color: #2a3c49;
+  font-family:
+    PT Sans,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#app {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+a {
+  @include mixins.mixin-link;
+}
+
+h3 {
+  color: white;
+}
